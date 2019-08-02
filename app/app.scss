@@ -1,0 +1,232 @@
+// App Styles
+// ----------------------------------------------------------------------------
+// Put style rules here that you want to apply to the entire application. These
+// styles are for the entire app and not just one component. Additionally, this
+// file can hold Sass mixins, functions, and placeholder classes to be imported
+// and used throughout the application.
+@font-face {
+  font-family: fonte;
+  src: url(../assets/font1.ttf);
+}
+
+#salvasId {
+  overflow-y: scroll;
+  width: 100%;
+}
+
+.salvasClass {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.alerta {
+  padding: 10px 10px;
+  border: 1px solid white;
+  border-radius: 20px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.9);
+  width: 80%;
+  height: 100px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  animation: zoomIn 0.5s;
+}
+
+.toastClass {
+  text-align: center;
+  font-family: fonte;
+}
+
+.body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(125deg, #16a085, #1abc9c, #3498db, #2980b9);
+  background-size: 400% 400%;
+  animation: bganimation 8s infinite;
+  height: 100vh;
+
+  color: white;
+}
+
+.botaoLimpar {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+  color: white;
+  border: 1px white solid;
+  border-radius: 20px;
+  font-family: fonte;
+  font-size: 75%;
+  height: 45px;
+  width: 30%;
+}
+
+.textoSalva {
+  font-size: 110%;
+  font-family: fonte;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+  margin: 10px;
+  word-wrap: break-word;
+}
+
+.iconApagar {
+  font-size: 110%;
+  float: right;
+}
+
+.containerSalva {
+  margin-top: 10px;
+
+  width: 90%;
+
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 7px;
+}
+
+.botaoFechar {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: white;
+  border-radius: 15px;
+  font-family: fonte;
+  font-size: 90%;
+  width: 25%;
+  margin: 10px 10px;
+}
+
+.botaoSalvar {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: white;
+  border-radius: 15px;
+  font-family: fonte;
+  font-size: 90%;
+  width: 25%;
+  margin: 10px 10px;
+}
+
+.mensagem {
+  font-size: 100%;
+  font-family: fonte;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+
+.mensagem2 {
+  font-size: 100%;
+  font-family: fonte;
+  color: #ff5959;
+  text-shadow: 1px 1px 5px black;
+}
+
+.mensagem3 {
+  font-size: 100%;
+  font-family: fonte;
+  color: red;
+  text-shadow: 1px 1px 5px black;
+}
+
+.mensagem4 {
+  font-size: 100%;
+  font-family: fonte;
+  color: green;
+  text-shadow: 1px 1px 5px black;
+}
+
+.divCard {
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+.inputSalvar {
+  border: 1px rgba(255, 255, 255, 0.6) solid;
+  border-radius: 30px;
+  margin-bottom: 15px;
+  width: 80%;
+  height: 40%;
+  align-content: center;
+  margin-top: 5px;
+  font-family: fonte;
+  font-size: 16px;
+  left: 50%;
+  -ms-transform: translate(-50%);
+  transform: translate(-50%);
+}
+
+@keyframes zoomIn {
+  0% {
+    transform: scale(0.5);
+  }
+
+  100% {
+    transform: translate(-120%, -120%), scale(1);
+  }
+}
+
+@keyframes bganimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@-webkit-keyframes bganimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@-moz-keyframes bganimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@-o-keyframes bganimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@-ms-keyframes bganimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

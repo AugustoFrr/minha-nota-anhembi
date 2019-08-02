@@ -1,0 +1,171 @@
+.icon {
+  font-size: 90px;
+}
+
+.input {
+  border: 1px rgba(255, 255, 255, 0.6) solid;
+  border-radius: 30px;
+  margin-bottom: 15px;
+  width: 100%;
+  align-content: center;
+  margin-top: 5px;
+  font-family: fonte;
+  font-size: 16px;
+}
+
+.iconHelp {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.header {
+  margin-bottom: 25px;
+  color: white;
+}
+
+.border {
+  border: 1px white solid;
+  border-radius: 15px;
+}
+
+.botao {
+  color: white;
+  border: 1px white solid;
+  border-radius: 20px;
+  font-family: fonte;
+  font-size: 80%;
+  height: 45px;
+  width: 50%;
+}
+
+.subtitulo {
+  font-size: 10px;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: #6c7a89;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.centralizar {
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.fundo {
+  background-color: rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+}
+
+.pulse {
+  margin-top: 25px;
+  display: inline-block;
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.pulse:before {
+  content: "";
+  background: rgba(255, 255, 255, 0.3);
+  display: block;
+  position: absolute;
+  border: 50%;
+  left: -15px;
+  right: -15px;
+  top: -15px;
+  bottom: -15px;
+  border-radius: 50%;
+  animation: pulsing 2s linear infinite;
+  opacity: 0;
+}
+
+ion-text {
+  font-size: 22px;
+  font-family: fonte;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+
+ion-label {
+  font-family: fonte;
+  font-size: 15px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+
+@-webkit-keyframes pulsing {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+@-moz-keyframes pulsing {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+@-o-keyframes pulsing {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+@-ms-keyframes pulsing {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+@keyframes pulsing {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}

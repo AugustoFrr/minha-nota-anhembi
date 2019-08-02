@@ -1,0 +1,45 @@
+.titulo {
+  font-size: 20px;
+  font-family: fonte;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+
+.texto {
+  font-size: 90%;
+  font-family: fonte;
+  color: white;
+}
+
+hr {
+  background: white;
+}
+
+.container {
+  padding: 15px;
+  padding-top: 15px; 
+  
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  
+}
+
+.padding {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.email {
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
+
+.backIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 10px;
+  margin-left: 10px;
+}
