@@ -8,7 +8,7 @@ Aplicativo criado no intuito de testar o framework Ionic 4, aprender os fundamen
 
 Nenhuma arquitetura ou engenharia de software foi aplicada durante o desenvolvimento. Testes feitos apenas em dispositivos Android.
 
-**Sem fins lucrativos, apenas educaionais!**
+**Sem fins lucrativos, apenas educacionais!**
 
 ## Funcionalidades:
 <ul>
