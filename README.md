@@ -22,8 +22,8 @@ Nenhuma arquitetura ou engenharia de software foi aplicada durante o desenvolvim
 
 Clique para expandir!
 
-<img src="https://github.com/AugustoFrr/minha-nota-anhembi/blob/master/screenshots/main_screen.png" width="175"> </img>
-<img src="https://github.com/AugustoFrr/minha-nota-anhembi/blob/master/screenshots/main_screen2.png" width="175"> </img>
-<img src="https://github.com/AugustoFrr/minha-nota-anhembi/blob/master/screenshots/main_screen3.png" width="175"> </img>
-<img src="https://github.com/AugustoFrr/minha-nota-anhembi/blob/master/screenshots/salvas_screen.png" width="175"> </img>
-<img src="https://github.com/AugustoFrr/minha-nota-anhembi/blob/master/screenshots/final_screen.png" width="175"> </img>
+<img src="https://github.com/AugustoFrr/minha-nota-anhembi/blob/master/screenshots/main_screen.png" width="200"> </img>
+<img src="https://github.com/AugustoFrr/minha-nota-anhembi/blob/master/screenshots/main_screen2.png" width="200"> </img>
+<img src="https://github.com/AugustoFrr/minha-nota-anhembi/blob/master/screenshots/main_screen3.png" width="200"> </img>
+<img src="https://github.com/AugustoFrr/minha-nota-anhembi/blob/master/screenshots/salvas_screen.png" width="200"> </img>
+<img src="https://github.com/AugustoFrr/minha-nota-anhembi/blob/master/screenshots/final_screen.png" width="200"> </img>
