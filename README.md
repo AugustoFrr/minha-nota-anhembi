@@ -2,7 +2,7 @@
 
 Um "gerenciador" de notas feito para auxiliar os alunos da Universidade Anhembi Morumbi.
 
-**[Página da Google Play!]()** (Em breve)
+**[Página da Google Play!](https://play.google.com/store/apps/details?id=augustofrr.minha.nota)** 
 
 Aplicativo criado no intuito de testar o framework Ionic 4, aprender os fundamentos de Angular e Typescript, além de fortalecer os conhecimentos em Javascript. Interface voltada ao minimalismo.
 
